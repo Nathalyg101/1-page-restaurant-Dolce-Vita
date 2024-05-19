@@ -1,0 +1,150 @@
+/* Head line text */
+
+.lobster-two-regular {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lobster-two-bold {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lobster-two-regular-italic {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lobster-two-bold-italic {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+h1 {
+  font-size: 65px;
+}
+h2 {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color:#800808;
+}
+
+h3 {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 35px;
+  color:#800808;
+}
+
+/* Body text */
+
+h4,h5,h6 {
+  font-family: "Dosis", sans-serif;
+  font-style:normal;
+}
+.normal-text {
+  font-family: "Dosis", sans-serif;
+  font-style:normal;
+  font-size: 25px;
+}
+
+.small-text {
+  font-size: 12px;
+}
+
+/* Color Family */
+
+.white {
+  color:white;
+}
+
+.maroon {
+  color:#800808;
+}
+
+/* Menu Section */
+
+.food-container {
+  width: 400px;
+  display: inline-block;
+  margin: 65px;
+}
+
+/* Image behind text */
+
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: #800808;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* Container holding the image and the text */
+.container2 {
+  position: relative;
+  text-align: center;
+  color: #800808;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.up-button {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+}
